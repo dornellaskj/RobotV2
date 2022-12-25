@@ -1,5 +1,5 @@
 from playsound import playsound
 
-def whoami() {
+def whoami():
  playsound('gun_robot.mp3')
-}
+
