@@ -1,8 +1,6 @@
 import time
 from pygame import mixer
 
-from playsound import playsound
-
 def whoami():
     mixer.init()
     mixer.music.load("./gun_robot.mp3")
