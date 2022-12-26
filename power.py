@@ -9,7 +9,7 @@ def forward():
 def backward():
     off()
     #turn on second two switches for backward power
-    megaio.set_relays(0, 12)
+    megaio.set_relays(0, 48)
 
 
 def off():
