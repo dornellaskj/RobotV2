@@ -4,15 +4,15 @@ import time
 
 ELBOW = 32
 SHOULDER = 1
-def __move(direction, part, time):
+def __move(direction, part, move_time):
     if direction == 1:
         power.forward()
     if direction == 0:
         power.backward()
     megaio.set_relays(0, part)
-    time.sleep(time)
+    time.sleep(move_time)
     power.off()
 
-def shoulder_up(time):
-    __move(1, SHOULDER, time)
+def shoulder_up(move_time):
+    __move(1, SHOULDER, move_time)
     
