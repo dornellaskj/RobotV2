@@ -14,5 +14,5 @@ def __move(direction, part, time):
     power.off()
 
 def shoulder_up(time):
-    self.__move(1, SHOULDER, time)
+    __move(1, SHOULDER, time)
     
