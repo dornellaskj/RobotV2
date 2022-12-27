@@ -1,6 +1,6 @@
 import megaio
 import time
-
+import power
 
 def test(pin):
     
