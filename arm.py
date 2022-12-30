@@ -30,20 +30,24 @@ def shoulderDown(move_time):
     __move(0, SHOULDER, move_time)
 
 def handOpen(move_time):
+    if move_time > .2
+        move_time = .2
     __move(1, HAND, move_time)
 
 def handClose(move_time):
+    if move_time > .2
+        move_time = .2
     __move(0, HAND, move_time)
 
 def wristUp(move_time):
-    __move(1, HAND, move_time)
+    __move(1, WRIST, move_time)
 
 def wristDown(move_time):
-    __move(0, HAND, move_time)
+    __move(0, WRIST, move_time)
 
 def ElbowUp(move_time):
-    __move(1, HAND, move_time)
+    __move(1, ELBOW, move_time)
 
 def ElbowDown(move_time):
-    __move(0, HAND, move_time)
+    __move(0, ELBOW, move_time)
     
