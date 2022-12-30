@@ -30,12 +30,12 @@ def shoulderDown(move_time):
     __move(0, SHOULDER, move_time)
 
 def handOpen(move_time):
-    if move_time > .2
+    if move_time > .2:
         move_time = .2
     __move(1, HAND, move_time)
 
 def handClose(move_time):
-    if move_time > .2
+    if move_time > .2:
         move_time = .2
     __move(0, HAND, move_time)
 
