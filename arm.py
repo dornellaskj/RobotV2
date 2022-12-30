@@ -27,23 +27,23 @@ def shoulderUp(move_time):
     __move(1, SHOULDER, move_time)
 
 def shoulderDown(move_time):
-    __move(1, SHOULDER, move_time)
+    __move(0, SHOULDER, move_time)
 
 def handOpen(move_time):
     __move(1, HAND, move_time)
 
 def handClose(move_time):
-    __move(1, HAND, move_time)
+    __move(0, HAND, move_time)
 
 def wristUp(move_time):
     __move(1, HAND, move_time)
 
 def wristDown(move_time):
-    __move(1, HAND, move_time)
+    __move(0, HAND, move_time)
 
 def ElbowUp(move_time):
     __move(1, HAND, move_time)
 
 def ElbowDown(move_time):
-    __move(1, HAND, move_time)
+    __move(0, HAND, move_time)
     
