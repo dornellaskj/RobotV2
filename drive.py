@@ -35,5 +35,8 @@ def driveForward(move_time):
     megaio.set_relays(0,0)
 
 def driveBackward(move_time):
-    leftBackward(move_time)
-    rightBackward(move_time)   
+    megaio.set_relays(0,16) 
+    megaio.set_relays(1,60)
+    time.sleep(move_time)
+    power.off()
+    megaio.set_relays(0,0)
