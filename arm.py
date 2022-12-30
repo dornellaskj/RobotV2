@@ -53,6 +53,9 @@ def elbowDown(move_time):
     __move(1, ELBOW, move_time)
 
 def pickUp():
+    handOpen(.2)
     shoulderDown(1)
-    
+    handClose(.2)
+    shoulderUp(1)
+
     
