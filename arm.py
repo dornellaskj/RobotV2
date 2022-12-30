@@ -46,9 +46,13 @@ def wristUp(move_time):
 def wristDown(move_time):
     __move(0, WRIST, move_time)
 
-def ElbowUp(move_time):
+def elbowUp(move_time):
+    __move(0, ELBOW, move_time)
+
+def elbowDown(move_time):
     __move(1, ELBOW, move_time)
 
-def ElbowDown(move_time):
-    __move(0, ELBOW, move_time)
+def pickUp():
+    shoulderDown(1)
+    
     
