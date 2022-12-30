@@ -20,7 +20,7 @@ def __move(direction, part, move_time):
         power.forward()
     if direction != 0:
         power.backward()
-    time.sleep(.07)
+    time.sleep(.05)
     power.off()
     megaio.set_relays(0, 0)
 
