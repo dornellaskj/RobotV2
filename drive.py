@@ -41,14 +41,14 @@ def driveBackward(move_time):
     power.off()
     megaio.set_relays(0,0)
 
-def turnRight(move_time):
+def turnLeft(move_time):
     megaio.set_relays(0,16) 
     megaio.set_relays(1,15)
     time.sleep(move_time)
     power.off()
     megaio.set_relays(0,0)
 
-def turnLeft(move_time):
+def turnRight(move_time):
     megaio.set_relays(0,16) 
     megaio.set_relays(1,240)
     time.sleep(move_time)
