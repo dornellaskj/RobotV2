@@ -54,12 +54,12 @@ def elbowDown(move_time):
 
 def pickUp():
     handOpen(.5)
-    shoulderDown(1.2)
+    shoulderDown(1.05)
     handClose(.5)
     shoulderUp(1)
 
 def putDown():
-    shoulderDown(1.2)
+    shoulderDown(1.05)
     handOpen(.5)
     shoulderUp(1)
     handClose(.5)
