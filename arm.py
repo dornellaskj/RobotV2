@@ -13,10 +13,37 @@ def __move(direction, part, move_time):
         power.forward()
     if direction == 0:
         power.backward()
-    megaio.set_relays(0, part)
+    megaio.set_relays(0, part)   
     time.sleep(move_time)
+    #reverse power for a moment to stop movement
+    if direction != 1:
+        power.forward()
+    if direction != 0:
+        power.backward()
     power.off()
+    megaio.set_relays(0, 0)
 
-def shoulder_up(move_time):
+def shoulderUp(move_time):
     __move(1, SHOULDER, move_time)
+
+def shoulderDown(move_time):
+    __move(1, SHOULDER, move_time)
+
+def handOpen(move_time):
+    __move(1, HAND, move_time)
+
+def handClose(move_time):
+    __move(1, HAND, move_time)
+
+def wristUp(move_time):
+    __move(1, HAND, move_time)
+
+def wristDown(move_time):
+    __move(1, HAND, move_time)
+
+def ElbowUp(move_time):
+    __move(1, HAND, move_time)
+
+def ElbowDown(move_time):
+    __move(1, HAND, move_time)
     
