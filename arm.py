@@ -31,13 +31,13 @@ def shoulderDown(move_time):
     __move(0, SHOULDER, move_time)
 
 def handOpen(move_time):
-    if move_time > .3:
-        move_time = .3
+    if move_time > .4:
+        move_time = .4
     __move(1, HAND, move_time)
 
 def handClose(move_time):
-    if move_time > .3:
-        move_time = .3
+    if move_time > .4:
+        move_time = .4
     __move(0, HAND, move_time)
 
 def wristUp(move_time):
@@ -53,9 +53,9 @@ def elbowDown(move_time):
     __move(1, ELBOW, move_time)
 
 def pickUp():
-    handOpen(.3)
+    handOpen(.4)
     shoulderDown(1)
-    handClose(.3)
+    handClose(.4)
     shoulderUp(1)
 
     
