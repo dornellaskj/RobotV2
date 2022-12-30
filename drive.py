@@ -30,6 +30,7 @@ def leftForward(move_time):
 def driveForward(move_time):
     power.forward()
     megaio.set_relays(0,16)
+    time.sleep(.02)
     megaio.set_relays(1,3)
     time.sleep(move_time)
     power.off()
