@@ -62,5 +62,6 @@ def putDown():
     shoulderDown(1.2)
     handOpen(.5)
     shoulderUp(1)
+    handClose(.5)
 
     
