@@ -4,6 +4,10 @@ import time
 
 ELBOW = 32
 SHOULDER = 1
+HAND = 4
+WRIST = 64
+
+
 def __move(direction, part, move_time):
     if direction == 1:
         power.forward()
