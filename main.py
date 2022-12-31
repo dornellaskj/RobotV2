@@ -19,4 +19,4 @@ def startup():
     time.sleep(.2)
     drive.left(.3)
     time.sleep(.2)
-    drive.right(.3)
+    drive.right(.35)
