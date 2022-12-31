@@ -56,12 +56,12 @@ def pickUp():
     handOpen(.6)
     shoulderDown(1)
     handClose(.6)
-    shoulderUp(1)
+    shoulderUp(1.02)
 
 def putDown():
     shoulderDown(1)
     handOpen(.6)
-    shoulderUp(1)
+    shoulderUp(1.02)
     handClose(.6)
 
     
