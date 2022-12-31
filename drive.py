@@ -27,28 +27,28 @@ def leftForward(move_time):
     power.off()
     megaio.set_relays(0,0)
 
-def driveForward(move_time):
+def forward(move_time):
     megaio.set_relays(0,16)
     megaio.set_relays(1,195)    
     time.sleep(move_time)
     power.off()
     megaio.set_relays(0,0)
 
-def driveBackward(move_time):
+def backward(move_time):
     megaio.set_relays(0,16) 
     megaio.set_relays(1,60)
     time.sleep(move_time)
     power.off()
     megaio.set_relays(0,0)
 
-def turnLeft(move_time):
+def left(move_time):
     megaio.set_relays(0,16) 
     megaio.set_relays(1,15)
     time.sleep(move_time)
     power.off()
     megaio.set_relays(0,0)
 
-def turnRight(move_time):
+def right(move_time):
     megaio.set_relays(0,16) 
     megaio.set_relays(1,240)
     time.sleep(move_time)
