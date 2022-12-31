@@ -20,7 +20,7 @@ def __move(direction, part, move_time):
         power.forward()
     if direction != 0:
         power.backward()
-    time.sleep(.04)
+    time.sleep(.035)
     power.off()
     megaio.set_relays(0, 0)
 
@@ -31,13 +31,13 @@ def shoulderDown(move_time):
     __move(0, SHOULDER, move_time)
 
 def handOpen(move_time):
-    if move_time > .5:
-        move_time = .5
+    if move_time > .6:
+        move_time = .6
     __move(1, HAND, move_time)
 
 def handClose(move_time):
-    if move_time > .5:
-        move_time = .5
+    if move_time > .6:
+        move_time = .6
     __move(0, HAND, move_time)
 
 def wristUp(move_time):
@@ -53,15 +53,15 @@ def elbowDown(move_time):
     __move(1, ELBOW, move_time)
 
 def pickUp():
-    handOpen(.5)
+    handOpen(.6)
     shoulderDown(1.05)
-    handClose(.5)
+    handClose(.6)
     shoulderUp(1)
 
 def putDown():
     shoulderDown(1.05)
-    handOpen(.5)
+    handOpen(.6)
     shoulderUp(1)
-    handClose(.5)
+    handClose(.6)
 
     
