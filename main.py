@@ -48,7 +48,7 @@ def harper():
     time.sleep(.2)
     drive.left(.1)
     time.sleep(.2)
-    drive.forward(1.3)
+    drive.forward(1)
     time.sleep(.2)
     drive.right(.45)
     time.sleep(.2)
