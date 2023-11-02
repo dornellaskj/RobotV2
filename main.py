@@ -28,7 +28,7 @@ def pickUp():
     arm.elbowUp(.4)
     arm.wristUp(.25)
     arm.shoulderDown(1.1)
-    arm.handClose(.45)
+    arm.handClose(.55)
     arm.shoulderUp(1)
     arm.wristDown(.25)
     arm.elbowDown(.3)
