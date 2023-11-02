@@ -52,7 +52,7 @@ def harper():
     time.sleep(.2)
     drive.right(.45)
     time.sleep(.2)
-    drive.forward(3)
+    drive.forward(3.2)
     time.sleep(.2)
     putDown()
 
