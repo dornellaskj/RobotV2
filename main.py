@@ -39,7 +39,7 @@ def putDown():
     arm.shoulderDown(1)
     arm.handOpen(.5)
     arm.shoulderUp(1.1)
-    arm.elbowDown(.4)
+    arm.elbowDown(.44)
     arm.handClose(.5)
 
 def harper():
@@ -48,7 +48,7 @@ def harper():
     time.sleep(.2)
     drive.left(.1)
     time.sleep(.2)
-    drive.forward(1)
+    drive.forward(1.2)
     time.sleep(.2)
     drive.right(.45)
     time.sleep(.2)
