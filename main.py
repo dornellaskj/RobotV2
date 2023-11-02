@@ -24,9 +24,11 @@ def startup():
 def pickUp():
     arm.handOpen(.5)
     arm.elbowUp(.4)
-    arm.shoulderDown(1.1)
+    arm.wristUp(.2)
+    arm.shoulderDown(1)
     arm.handClose(.4)
     arm.shoulderUp(1)
+    arm.wristDown(.2)
     arm.elbowDown(.3)
 
 def putDown():
@@ -43,7 +45,7 @@ def harper():
     time.sleep(.2)
     drive.left(.1)
     time.sleep(.2)
-    drive.forward(2.2)
+    drive.forward(1.5)
     time.sleep(.2)
     drive.right(.3)
     time.sleep(.2)
