@@ -26,7 +26,7 @@ def pickUp():
     arm.elbowUp(.4)
     arm.wristUp(.25)
     arm.shoulderDown(1.1)
-    arm.handClose(.4)
+    arm.handClose(.45)
     arm.shoulderUp(1)
     arm.wristDown(.25)
     arm.elbowDown(.3)
@@ -49,7 +49,7 @@ def harper():
     time.sleep(.2)
     drive.right(.5)
     time.sleep(.2)
-    drive.forward(2.6)
+    drive.forward(3)
     time.sleep(.2)
     putDown()
 
