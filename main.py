@@ -39,7 +39,7 @@ def putDown():
 
 def harper():
     pickUp()
-    drive.forward(3)
+    drive.forward(3.5)
     time.sleep(.2)
     drive.left(.2)
     time.sleep(.2)
