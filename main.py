@@ -41,8 +41,8 @@ def harper():
     pickUp()
     drive.forward(3)
     drive.left(.1)
-    drive.forward(1.5)
-    drive.right(.6)
+    drive.forward(2.2)
+    drive.right(.3)
     drive.forward(1)
     putDown()
 
